@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.qrCode {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.qrCode h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.qrCode input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.qrCode img {
+    margin-top: 20px;
+    max-width: 100%;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.qrCode button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.qrCode button:hover {
+    background-color: #45a049;
+}
+
+.info {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e7f7e7;
+    border: 1px solid #d1e7d1;
+    border-radius: 5px;
+}
+
+#downloadBtn {
+    margin-top: 10px;
+    background-color: #008CBA;
+}
+
+#downloadBtn:hover {
+    background-color: #007b9e;
+}
+
+footer {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
