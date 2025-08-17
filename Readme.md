@@ -16,7 +16,7 @@ A simple **QR Code Generator** built with **HTML, CSS, and JavaScript** that all
 - **CSS** for styling
 - **JavaScript** for functionality
 
-## Link 🔗: [QR Code Generator](https://https://project-qrcode-generator.netlify.app/)
+## Link 🔗: [QR Code Generator](https://project-qrcode-generator.netlify.app/)
 
 ## 📱 QR Code
 
